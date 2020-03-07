@@ -14,6 +14,8 @@ git clone https://github.com/RjDuan/AdvCam-Hide-Adv-with-Natural-Styles
 cd AdvCam-Hide-Adv-with-Natural-Styles
 pip install --user --requirement requirements.txt
 ```
+Download [VGG19,npy](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs) under folder /vgg19
+
 **Note: We use tensorflow v1 in the code, incompatible with python>3.6 when we test.**
 
 ## Usage
@@ -55,7 +57,7 @@ More generation and test details can be found in video [AdvCam](https://www.yout
 
 ## Acknowledgments
 We use [Yang's code](https://github.com/LouieYang/deep-photo-styletransfer-tf) for style transfer part.
-
+We use VGG19 implemented by [Chris](https://github.com/machrisaa/tensorflow-vgg)
 
 ## Citation
 
