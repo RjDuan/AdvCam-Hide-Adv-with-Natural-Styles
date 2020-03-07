@@ -2,7 +2,6 @@
 
 Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles"
 
-
 ## Installation
 We highly recommend using [conda](https://www.anaconda.com/distribution/).
 ```sh
@@ -43,7 +42,7 @@ sh run.sh
 ```
 ## Usage example
 
-A few motivating and useful examples of how AdvCam can be used. 
+A few motivating examples of how AdvCam can be used. 
 #### Target Image
 Target image (predicted as "Street sign" with 0.904 confidence)
 ![Target image](https://github.com/RjDuan/AdvCam-Hide-Adv-with-Natural-Styles/blob/master/results/ori_stop_sign.png)
