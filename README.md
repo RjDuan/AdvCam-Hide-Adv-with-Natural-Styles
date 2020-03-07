@@ -2,10 +2,10 @@
 
 Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles"
 <p align='center'>
-  <img src='results/1-1.png'/>
-  <img src='results/1-2.png'/>
-  <img src='results/2-1.png'/>
-  <img src='results/2-2.png'/>
+  <img src='results/1-1.png' width='200'/>
+  <img src='results/1-2.png' width='200'/>
+  <img src='results/2-1.png' width='200'/>
+  <img src='results/2-2.png' width='200'/>
 </p>
 ## Installation
 
