@@ -2,6 +2,10 @@
 
 Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles"
 
+## Dependenncies
+* cuda==9.0.176
+* cudnn==7.0.5
+
 ## Installation
 We highly recommend using [conda](https://www.anaconda.com/distribution/).
 ```sh
@@ -14,7 +18,7 @@ git clone https://github.com/RjDuan/AdvCam-Hide-Adv-with-Natural-Styles
 cd AdvCam-Hide-Adv-with-Natural-Styles
 pip install --user --requirement requirements.txt
 ```
-Download [VGG19,npy](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs) under folder /vgg19
+Download [VGG19.npy](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs) under folder /vgg19
 
 **Note: We use tensorflow v1 in the code, incompatible with python>3.6 when we test.**
 
@@ -24,6 +28,8 @@ Running our given example:
 ```sh
 sh run.sh
 ```
+**Note: we set iteration as 4000 for making sure a successful adversary, but adv with better visual performance can be found in earlier iterations.**
+
 #### Basic Usage
 * Path to images
   * Put target image, style image, and their segmentations in folders. We set the name of target/style image and their segmentation are same by default. 
