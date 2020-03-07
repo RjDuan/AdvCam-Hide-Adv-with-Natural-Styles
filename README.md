@@ -7,12 +7,12 @@ Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Sty
 We highly recommend using [conda](https://www.anaconda.com/distribution/).
 ```sh
 conda create -n advcam_env python=3.6
-conda activate advcam_env
+source activate advcam_env
 ```
 After activating virtual environment:
 ```sh
 git clone https://github.com/RjDuan/AdvCam-Hide-Adv-with-Natural-Styles
-cd xxx
+cd AdvCam-Hide-Adv-with-Natural-Styles
 pip install requirement.txt
 ```
 **Note: We use tensorflow v1 in the code, incompatible with python>3.6 when we test.**
@@ -24,19 +24,20 @@ Running our given example:
 sh run.sh
 ```
 #### Basic Usage
-1. Path to images
-Put target image, style image, and their segmentations in folders. We set the name of target/style image and their segmentation are same by default. 
-Modify run.sh and advcam_main.py if you change the path to images.
-We define the segmentation in following way, you can change it in utils.py
+* Path to images
+  * Put target image, style image, and their segmentations in folders. We set the name of target/style image and their segmentation are same by default. 
+  * Modify run.sh and advcam_main.py if you change the path to images.
+  * We define the segmentation in following way, you can change it in utils.py
 
 Segmentation type | RGB value
 ------------ | -------------
 UnAttack | <(128,128,128)
 Attack | >(128,128,128)
 
-2. Parameters
-Parameters can be speicified in either run.sh or advcam_main.py.
-3. Run the follow scipt
+* Parameters
+  *Parameters can be speicified in either run.sh or advcam_main.py.
+
+* Run the follow scipt
 ```sh
 sh run.sh
 ```
