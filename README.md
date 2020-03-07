@@ -5,7 +5,7 @@ Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Sty
 ![](header.png)
 
 ## Installation
-We highly recommend using conda environnment.
+We highly recommend using conda environnment [Anaconda](https://www.anaconda.com/distribution/).
 Install Anaconda from xxx, then 
 
 ```sh
