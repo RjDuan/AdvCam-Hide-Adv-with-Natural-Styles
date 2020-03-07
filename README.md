@@ -12,7 +12,7 @@ After activating virtual environment:
 ```sh
 git clone https://github.com/RjDuan/AdvCam-Hide-Adv-with-Natural-Styles
 cd AdvCam-Hide-Adv-with-Natural-Styles
-pip install requirement.txt
+pip install --user --requirement requirements.txt
 ```
 **Note: We use tensorflow v1 in the code, incompatible with python>3.6 when we test.**
 
