@@ -13,6 +13,13 @@ Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Sty
   <img src='results/5-1.png' width='200'/>
   <img src='results/5-2.png' width='200'/>
 </p>
+<p align='center'>
+  <img src='results/6-1.png' width='200'/>
+  <img src='results/6-2.png' width='200'/>
+  <img src='results/7-1.png' width='200'/>
+  <img src='results/7-2.png' width='200'/>
+</p>
+
 ## Installation
 
 #### Dependencies
