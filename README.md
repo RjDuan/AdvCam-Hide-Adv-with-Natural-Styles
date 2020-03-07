@@ -4,8 +4,14 @@ Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Sty
 <p align='center'>
   <img src='results/1-1.png' width='200'/>
   <img src='results/1-2.png' width='200'/>
-  <img src='results/2-1.png' width='200'/>
-  <img src='results/2-2.png' width='200'/>
+  <img src='results/3-1.png' width='200'/>
+  <img src='results/3-2.png' width='200'/>
+</p>
+<p align='center'>
+  <img src='results/4-1.png' width='200'/>
+  <img src='results/4-2.png' width='200'/>
+  <img src='results/5-1.png' width='200'/>
+  <img src='results/5-2.png' width='200'/>
 </p>
 ## Installation
 
