@@ -2,11 +2,12 @@
 
 Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles"
 
-## Dependenncies
+## Installation
+
+#### Dependencies
 * cuda==9.0.176
 * cudnn==7.0.5
 
-## Installation
 We highly recommend using [conda](https://www.anaconda.com/distribution/).
 ```sh
 conda create -n advcam_env python=3.6
