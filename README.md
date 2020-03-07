@@ -28,10 +28,12 @@ sh run.sh
 Put target image, style image, and their segmentations in folders. We set the name of target/style image and their segmentation are same by default. 
 Modify run.sh and advcam_main.py if you change the path to images.
 We define the segmentation in following way, you can change it in utils.py
+
 Segmentation type | RGB value
 ------------ | -------------
 UnAttack | <(128,128,128)
 Attack | >(128,128,128)
+
 2. Parameters
 Parameters can be speicified in either run.sh or advcam_main.py.
 3. Run the follow scipt
