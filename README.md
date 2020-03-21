@@ -1,4 +1,4 @@
-# AdvCam-Hide-Adv-with-Natural-Styles
+# AdvCam-Hide-Adv-with-Natural-Styles [Paper](https://arxiv.org/abs/2003.08757)
 
 Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles"
 <p align='center'>
