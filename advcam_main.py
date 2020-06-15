@@ -11,19 +11,19 @@ parser = argparse.ArgumentParser()
 # Input Options
 
 parser.add_argument("--content_image_path", dest='content_image_path',  nargs='?',
-                    help="Path to the content image",default='./stop-sign/content/stop.jpg')
+                    help="Path to the content image",default='')
 parser.add_argument("--style_image_path",   dest='style_image_path',    nargs='?',
-                    help="Path to the style image",default='./data/content/banana1-style.jpg')
+                    help="Path to the style image",default='')
 parser.add_argument("--content_seg_path",   dest='content_seg_path',    nargs='?',
-                    help="Path to the style segmentation",default='./stop-sign/content-mask/stop.jpg')
+                    help="Path to the style segmentation",default='')
 parser.add_argument("--style_seg_path",     dest='style_seg_path',      nargs='?',
-                    help="Path to the style segmentation",default='./examples/segmentation/tar11.png')
+                    help="Path to the style segmentation",default='')
 parser.add_argument("--background_path",    dest='background_path',     nargs='?',
-                    help="Path to init image", default='./physical-attack-data/background/traffic_bg')
+                    help="Path to init image", default='')
 parser.add_argument("--result_dir",             dest='result_dir',              nargs='?',
-                    help='Path to save the results', default='./result/failure_cases')
+                    help='Path to save the results', default='')
 parser.add_argument("--serial",             dest='serial',              nargs='?',
-                    help='Path to save the serial out_iter_X.png', default='./data/result_4-13-hen-fire-loss1+2')
+                    help='Path to save the serial out_iter_X.png', default='')
 
 # Training Optimizer Options
 parser.add_argument("--max_iter",           dest='max_iter',            nargs='?', type=int,
