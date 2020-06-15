@@ -49,13 +49,14 @@ Running our given example:
 sh run.sh
 ```
 And the directory :
+
 |--physical-attack-data	<br/>
-&nbsp;  |--content	<br/>
-&nbsp;&nbsp;    |--stop-sign	<br/>
-&nbsp; |--style	<br/>
-&nbsp;&nbsp; |--stop-sign	<br/>
-&nbsp; |--content-mask	<br/>
-&nbsp; |--style-mask	<br/>
+<pre>  |--content	<br/>
+<pre>&emsp;    |--stop-sign	<br/>
+<pre> |--style	<br/>
+<pre>&emsp; |--stop-sign	<br/>
+<pre> |--content-mask	<br/>
+<pre> |--style-mask	<br/>
   
 **Note: we set iteration as 4000 for making sure a successful adversary, but adv with better visual performance can be found in earlier iterations.**
 
