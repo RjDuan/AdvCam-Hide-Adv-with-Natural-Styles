@@ -50,12 +50,12 @@ sh run.sh
 ```
 And the directory :
 |--physical-attack-data	<br/>
-  |--content	<br/>
-    |--stop-sign	<br/>
-  |--style	<br/>
-    |--stop-sign	<br/>
-  |--content-mask	<br/>
-  |--style-mask	<br/>
+&nbsp;  |--content	<br/>
+&nbsp;&nbsp;    |--stop-sign	<br/>
+&nbsp; |--style	<br/>
+&nbsp;&nbsp; |--stop-sign	<br/>
+&nbsp; |--content-mask	<br/>
+&nbsp; |--style-mask	<br/>
   
 **Note: we set iteration as 4000 for making sure a successful adversary, but adv with better visual performance can be found in earlier iterations.**
 
