@@ -51,12 +51,12 @@ sh run.sh
 And the directory :
 
 |--physical-attack-data	<br/>
-<pre>  |--content	<br/>
-<pre>&emsp;    |--stop-sign	<br/>
-<pre> |--style	<br/>
-<pre>&emsp; |--stop-sign	<br/>
-<pre> |--content-mask	<br/>
-<pre> |--style-mask	<br/>
+&emsp;&emsp; |--content	<br/>
+&emsp;&emsp;&emsp;&emsp;    |--stop-sign	<br/>
+&emsp;&emsp;|--style	<br/>
+&emsp;&emsp;&emsp;&emsp; |--stop-sign	<br/>
+&emsp;&emsp; |--content-mask	<br/>
+&emsp;&emsp;|--style-mask	<br/>
   
 **Note: we set iteration as 4000 for making sure a successful adversary, but adv with better visual performance can be found in earlier iterations.**
 
