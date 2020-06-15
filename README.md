@@ -51,12 +51,12 @@ sh run.sh
 And the directory :
 
 |--physical-attack-data	<br/>
-&emsp;&emsp; |--content	<br/>
-&emsp;&emsp;&emsp;&emsp;    |--stop-sign	<br/>
-&emsp;&emsp;|--style	<br/>
-&emsp;&emsp;&emsp;&emsp; |--stop-sign	<br/>
-&emsp;&emsp; |--content-mask	<br/>
-&emsp;&emsp;|--style-mask	<br/>
+|&emsp;&emsp;|--content	<br/>
+|&emsp;&emsp;&emsp;&emsp;|--stop-sign	<br/>
+|&emsp;&emsp;|--style	<br/>
+|&emsp;&emsp;&emsp;&emsp;|--stop-sign	<br/>
+|&emsp;&emsp;|--content-mask	<br/>
+|&emsp;&emsp;|--style-mask	<br/>
   
 **Note: we set iteration as 4000 for making sure a successful adversary, but adv with better visual performance can be found in earlier iterations.**
 
@@ -93,6 +93,7 @@ Or use AdvCam to hide your image from Google Image Search
 Test image can be download [here](https://github.com/RjDuan/AdvCam-Hide-Adv-with-Natural-Styles/blob/master/results/pikachu.jpg)
 
 #### More generation and test details can be found in video [AdvCam](https://www.youtube.com/watch?v=gk3NHY_gpvg)
+
 
 ## Acknowledgments
 * We use [Yang's code](https://github.com/LouieYang/deep-photo-styletransfer-tf) for style transfer part.
