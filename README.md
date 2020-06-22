@@ -104,12 +104,12 @@ Data is collected from ImageNet, open source imagehub and some are caputured by 
 
 ## Citation
 ```
-@InProceedings{Duan_2020_CVPR,
-author = {Duan, Ranjie and Ma, Xingjun and Wang, Yisen and Bailey, James and Qin, A. K. and Yang, Yun},
-title = {Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2020}
+@inproceedings{duan2020adversarial,
+  title={Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles},
+  author={Duan, Ranjie and Ma, Xingjun and Wang, Yisen and Bailey, James and Qin, A Kai and Yang, Yun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1000--1008},
+  year={2020}
 }
 ```
 
