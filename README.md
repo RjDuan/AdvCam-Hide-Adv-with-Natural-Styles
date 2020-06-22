@@ -94,8 +94,9 @@ Test image can be download [here](https://github.com/RjDuan/AdvCam-Hide-Adv-with
 
 #### More generation and test details can be found in video [AdvCam](https://www.youtube.com/watch?v=gk3NHY_gpvg)
 
-## Question &Answer
-* About the dataset
+## Q&A
+* About the dataset.
+
 Data is collected from ImageNet, open source imagehub and some are caputured by ourselves. Data used in our paper can be downloaded [here](https://drive.google.com/file/d/1K5bHwPOcKtteArafYoqzpW1FGzF_ZLYT/view?usp=sharing). We provide both images and their masks (segmentaions).
 
 ## Acknowledgments
