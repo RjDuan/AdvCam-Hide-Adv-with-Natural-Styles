@@ -1,7 +1,6 @@
 # AdvCam-Hide-Adv-with-Natural-Styles 
-[Paper link](https://arxiv.org/abs/2003.08757)
 
-Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles"
+Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Styles" (CVPR2020)
 <p align='center'>
   <img src='results/1-1.png' width='200'/>
   <img src='results/1-2.png' width='200'/>
@@ -20,7 +19,7 @@ Code for "Adversarial Camouflage: Hiding Physical-World Attacks with Natural Sty
   <img src='results/7-1.png' width='200'/>
   <img src='results/7-2.png' width='200'/>
 </p>
-
+[Paper link](https://arxiv.org/abs/2003.08757)
 ## Installation
 
 #### Dependencies
