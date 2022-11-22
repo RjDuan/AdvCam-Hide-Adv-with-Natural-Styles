@@ -1,4 +1,4 @@
 tensorflow-gpu==1.8.0
 numpy==1.14.1
-Pillow==6.2.1
+Pillow==9.3.0
 argparse==1.1
